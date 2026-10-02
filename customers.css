@@ -68,6 +68,9 @@ html, body {
     padding: 0 15px 10px; 
     min-height: 0; 
     gap: 8px; 
+    width: 100%;             /* يضمن احتواء المحتوى داخل الشاشة */
+    box-sizing: border-box;  /* يمنع حدوث بروز جانبي بسبب الـ padding */
+    overflow: hidden;        /* يمنع التمرير الخارجي للفيو بورت */
 }
 
 .action-bar { 
